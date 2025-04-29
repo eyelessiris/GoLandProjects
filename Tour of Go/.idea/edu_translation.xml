@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TranslationProjectSettings">
+    <option name="currentTranslationLanguage" value="Korean" />
+    <option name="structureTranslation">
+      <map>
+        <entry key="Korean">
+          <value>
+            <map>
+              <entry key="1000995320" value="임포트  " />
+              <entry key="1021193198" value="인터페이스  " />
+              <entry key="1023213463" value="연습: rot13Reader  " />
+              <entry key="1059760412" value="포인터와 함수  " />
+              <entry key="1072371028" value="소개  " />
+              <entry key="1074549337" value="숫자 상수  " />
+              <entry key="1085612477" value="영원히  " />
+              <entry key="1095232939" value="짧은 구문이 있는 If  " />
+              <entry key="1107955252" value="에러  " />
+              <entry key="1117674379" value="짧은 변수 선언  " />
+              <entry key="1135532658" value="메서드와 인터페이스  " />
+              <entry key="1145241186" value="연습: 이미지  " />
+              <entry key="1200526775" value="맵 수정하기  " />
+              <entry key="1201573283" value="Nil 슬라이스  " />
+              <entry key="120471381" value="Range  " />
+              <entry key="1205423474" value="연습: 맵  " />
+              <entry key="123959216" value="조건이 없는 Switch  " />
+              <entry key="1240299678" value="소개  " />
+              <entry key="1265530735" value="Defer  " />
+              <entry key="1288012065" value="다중 결과  " />
+              <entry key="129419571" value="구조체에 대한 포인터  " />
+              <entry key="1324557718" value="메서드와 포인터 간접 참조  " />
+              <entry key="1326690959" value="스트링어  " />
+              <entry key="1339762944" value="슬라이스 리터럴  " />
+              <entry key="1360736121" value="make로 슬라이스 생성하기  " />
+              <entry key="1364436229" value="배열  " />
+              <entry key="1390226136" value="타입 스위치  " />
+              <entry key="1394584309" value="If와 else  " />
+              <entry key="1444600495" value="슬라이스 길이와 용량  " />
+              <entry key="1448483441" value="값 또는 포인터 리시버 선택  " />
+              <entry key="1468119547" value="패키지, 변수, 그리고 함수  " />
+              <entry key="1473363331" value="Switch  " />
+              <entry key="1476902184" value="패키지  " />
+              <entry key="1561505206" value="고루틴  " />
+              <entry key="1566364052" value="함수  " />
+              <entry key="1597175895" value="인터페이스 값  " />
+              <entry key="1612166539" value="기본 타입  " />
+              <entry key="1612469711" value="여기서 어디로 갈 것인가...  " />
+              <entry key="1622019354" value="Select  " />
+              <entry key="1657174969" value="For  " />
+              <entry key="1687691645" value="타입 단정  " />
+              <entry key="1712481568" value="구조체 리터럴  " />
+              <entry key="1731384156" value="메서드는 함수입니다  " />
+              <entry key="1740392567" value="연습: 스트링어  " />
+              <entry key="1741904721" value="기본 선택  " />
+              <entry key="1748466899" value="내보낸 이름  " />
+              <entry key="1750763397" value="제네릭  " />
+              <entry key="1778237678" value="채널  " />
+              <entry key="1800824438" value="인터페이스는 암묵적으로 구현됨  " />
+              <entry key="1803954835" value="구조체 필드  " />
+              <entry key="1855045018" value="연습: Equivalent Binary Trees  " />
+              <entry key="1949212467" value="맵  " />
+              <entry key="1956461021" value="Nil 인터페이스 값  " />
+              <entry key="1959265032" value="메서드와 포인터 간접 참조 (2)  " />
+              <entry key="198954766" value="슬라이스  " />
+              <entry key="2042263367" value="연습: 에러  " />
+              <entry key="2068068538" value="상수  " />
+              <entry key="218990860" value="포인터  " />
+              <entry key="230590080" value="sync.Mutex  " />
+              <entry key="256288814" value="Range 계속  " />
+              <entry key="290431586" value="흐름 제어문: for, if, else, switch, defer  " />
+              <entry key="293573025" value="If  " />
+              <entry key="294250020" value="누적된 Defer  " />
+              <entry key="296117083" value="포인터 리시버  " />
+              <entry key="332228141" value="함수 클로저  " />
+              <entry key="34390644" value="맵 리터럴  " />
+              <entry key="348365072" value="버퍼드 채널  " />
+              <entry key="374352218" value="타입 변환  " />
+              <entry key="383166208" value="이미지  " />
+              <entry key="418747863" value="타입 매개변수  " />
+              <entry key="438373731" value="For는 Go의 &quot;while&quot;  " />
+              <entry key="501779696" value="연습문제: 웹 크롤러  " />
+              <entry key="50485563" value="동시성  " />
+              <entry key="523641497" value="메서드  " />
+              <entry key="524791182" value="명명된 반환값  " />
+              <entry key="551385806" value="연습: 피보나치 클로저  " />
+              <entry key="57460339" value="슬라이스 기본값  " />
+              <entry key="582097525" value="초기값이 있는 변수  " />
+              <entry key="597829791" value="함수 값  " />
+              <entry key="612625933" value="제로 값  " />
+              <entry key="615260035" value="변수  " />
+              <entry key="639789592" value="타입 추론  " />
+              <entry key="681147042" value="Range와 Close  " />
+              <entry key="688203879" value="Switch 평가 순서  " />
+              <entry key="737092917" value="리더  " />
+              <entry key="740328686" value="빈 인터페이스  " />
+              <entry key="745721470" value="메서드 계속  " />
+              <entry key="761397626" value="더 많은 타입: 구조체(structs), 슬라이스(slices), 맵(maps)  " />
+              <entry key="773140431" value="연습: 리더  " />
+              <entry key="846837565" value="연습: 슬라이스  " />
+              <entry key="874591351" value="슬라이스의 슬라이스  " />
+              <entry key="888033278" value="슬라이스에 추가하기  " />
+              <entry key="903889613" value="구조체  " />
+              <entry key="945281514" value="함수 계속  " />
+              <entry key="949817011" value="For 계속  " />
+              <entry key="951131587" value="맵 리터럴 계속  " />
+              <entry key="970060882" value="nil 기반 값을 가진 인터페이스 값  " />
+              <entry key="982867991" value="슬라이스는 배열에 대한 참조와 같습니다  " />
+              <entry key="986628578" value="연습문제: 루프와 함수  " />
+              <entry key="993582958" value="제네릭 타입  " />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="translationVersions">
+      <map>
+        <entry key="Korean" value="696" />
+      </map>
+    </option>
+  </component>
+</project>

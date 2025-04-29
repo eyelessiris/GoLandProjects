@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="34390644">
+                <value>
+                  <list>
+                    <Term value="Map literals" definition="Map literals are like struct literals, but the keys are required." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="57460339">
+                <value>
+                  <list>
+                    <Term value="Slice defaults" definition="In Go, when slicing, you can omit the high or low bounds to use their defaults instead. The default is zero for the low bound and the length of the slice for the high bound." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="120471381">
+                <value>
+                  <list>
+                    <Term value="Range" definition="The `range` form of the `for` loop iterates over a slice or map." />
+                    <Term value="range" definition="The `range` form of the `for` loop iterates over a slice or map." />
+                    <Term value="ranging" definition="The `range` form of the `for` loop iterates over a slice or map." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="123959216">
+                <value>
+                  <list>
+                    <Term value="Switch without a condition" definition="Switch without a condition is the same as 'switch true' and can be a clean way to write long if-then-else chains." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="129419571">
+                <value>
+                  <list>
+                    <Term value="struct pointer" definition="A struct pointer is a pointer that allows accessing the fields of a struct in a language." />
+                    <Term value="dereference" definition="Dereference is the action of accessing the value that a pointer is pointing to." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="218990860">
+                <value>
+                  <list>
+                    <Term value="pointers" definition="A pointer holds the memory address of a value in Go." />
+                    <Term value="pointer" definition="A pointer holds the memory address of a value in Go." />
+                    <Term value="dereferencing" definition="Dereferencing in Go refers to accessing the value that a pointer points to using the `*` operator." />
+                    <Term value="*T" definition="In Go, `*T` denotes a pointer to a `T` value, and its zero value is `nil`." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="230590080">
+                <value>
+                  <list>
+                    <Term value="sync.Mutex" definition="sync.Mutex is a Go standard library data structure that provides mutual exclusion, ensuring only one goroutine can access a variable at a time." />
+                    <Term value="Lock" definition="Lock is a method of sync.Mutex used to block access to a critical section of code, enforcing mutual exclusion." />
+                    <Term value="Unlock" definition="Unlock is a method of sync.Mutex used to release access to a critical section of code, allowing other goroutines to proceed." />
+                    <Term value="unlocked" definition="Unlock is a method of sync.Mutex used to release access to a critical section of code, allowing other goroutines to proceed." />
+                    <Term value="defer" definition="defer is a Go keyword used to ensure that a specific function, such as Unlock, is executed at the end of the surrounding function, even if an error occurs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="294250020">
+                <value>
+                  <list>
+                    <Term value="Deferred function calls" definition="Deferred function calls are pushed onto a stack and executed in last-in-first-out order when a function returns." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="296117083">
+                <value>
+                  <list>
+                    <Term value="Pointer receivers" definition="A Pointer Receiver in Go is a method receiver type denoted by *T, which allows the method to modify the value to which the receiver points." />
+                    <Term value="pointer receivers" definition="A Pointer Receiver in Go is a method receiver type denoted by *T, which allows the method to modify the value to which the receiver points." />
+                    <Term value="pointer receiver" definition="A Pointer Receiver in Go is a method receiver type denoted by *T, which allows the method to modify the value to which the receiver points." />
+                    <Term value="value receivers" definition="A Value Receiver in Go is a method receiver that operates on a copy of the original value, not the value itself, ensuring the original value remains unchanged." />
+                    <Term value="value receiver" definition="A Value Receiver in Go is a method receiver that operates on a copy of the original value, not the value itself, ensuring the original value remains unchanged." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="332228141">
+                <value>
+                  <list>
+                    <Term value="closures" definition="A closure is a function value that references variables from outside its body. The function may access and assign to the referenced variables, effectively binding itself to them." />
+                    <Term value="closure" definition="A closure is a function value that references variables from outside its body. The function may access and assign to the referenced variables, effectively binding itself to them." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="348365072">
+                <value>
+                  <list>
+                    <Term value="Buffered Channels" definition="In Go, buffered channels are initialized with a buffer length as the second argument to 'make'. Sends to a buffered channel block only when the buffer is full, and receives block when the buffer is empty." />
+                    <Term value="buffered channel" definition="In Go, buffered channels are initialized with a buffer length as the second argument to 'make'. Sends to a buffered channel block only when the buffer is full, and receives block when the buffer is empty." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="374352218">
+                <value>
+                  <list>
+                    <Term value="Type conversions" definition="The expression `T(v)` in Go converts the value `v` to the type `T`. Explicit conversions are required between different types." />
+                    <Term value="numeric conversions" definition="In Go, explicit numeric conversions involve converting one numeric type to another, for example, int to float64 or float64 to uint." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="383166208">
+                <value>
+                  <list>
+                    <Term value="Image interface" definition="The Image interface in Go is defined in the image package and includes methods like ColorModel(), Bounds(), and At(x, y int) for working with images." />
+                    <Term value="Rectangle" definition="The Rectangle returned by the Bounds method of the Image interface refers to image.Rectangle, a type defined in the image package for representing rectangular areas." />
+                    <Term value="color.Color" definition="The color.Color type in Go is an interface defined in the image/color package for representing colors." />
+                    <Term value="color.Model" definition="The color.Model type in Go is an interface specified in the image/color package, used to define color models." />
+                    <Term value="color.RGBA" definition="color.RGBA is a predefined implementation of the color.Color interface in Go, representing colors in RGBA format." />
+                    <Term value="color.RGBAModel" definition="color.RGBAModel is a predefined implementation of the color.Model interface in Go, representing the RGBAModel color model." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="418747863">
+                <value>
+                  <list>
+                    <Term value="Type parameters" definition="Type parameters in Go functions allow functions to be written to work with multiple types by specifying the type parameters between brackets before the function's arguments." />
+                    <Term value="type parameters" definition="Type parameters in Go functions allow functions to be written to work with multiple types by specifying the type parameters between brackets before the function's arguments." />
+                    <Term value="comparable" definition="In Go, 'comparable' is a built-in constraint that allows the use of '==' and '!=' operators on values of a type that satisfies this constraint." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="501779696">
+                <value>
+                  <list>
+                    <Term value="concurrency" definition="Concurrency in programming refers to the ability to run multiple tasks or operations simultaneously, often to improve performance or efficiency." />
+                    <Term value="Mutex" definition="Mutex is a mutual exclusion object used to prevent concurrent processes from entering critical sections of code that could otherwise lead to data corruption or inconsistent results." />
+                    <Term value="map" definition="A map is a data structure in Go that associates keys to values, allowing for quick and efficient data access." />
+                    <Term value="maps" definition="A map is a data structure in Go that associates keys to values, allowing for quick and efficient data access." />
+                    <Term value="Fetcher interface" definition="Fetcher is an interface in Go that defines a method Fetch, which returns the body of a URL and a slice of URLs found on that page." />
+                    <Term value="fakeFetcher" definition="FakeFetcher is an implementation of the Fetcher interface that returns predefined results, often used for testing or prototyping purposes in Go." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="523641497">
+                <value>
+                  <list>
+                    <Term value="Methods" definition="A method is a function with a special receiver argument, appearing in its own argument list between the 'func' keyword and the method name." />
+                    <Term value="methods" definition="A method is a function with a special receiver argument, appearing in its own argument list between the 'func' keyword and the method name." />
+                    <Term value="method" definition="A method is a function with a special receiver argument, appearing in its own argument list between the 'func' keyword and the method name." />
+                    <Term value="receiver" definition="A receiver is a special argument in a method that specifies the type on which the method operates." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="524791182">
+                <value>
+                  <list>
+                    <Term value="Named return values" definition="In Go, named return values are treated as variables defined at the top of the function, and they can be returned using a 'return' statement without arguments." />
+                    <Term value="named return values" definition="In Go, named return values are treated as variables defined at the top of the function, and they can be returned using a 'return' statement without arguments." />
+                    <Term value="Naked return" definition="In Go, a 'naked' return is a return statement without arguments that returns the named return values. It is suggested to use this only in short functions for better readability." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="551385806">
+                <value>
+                  <list>
+                    <Term value="Fibonacci closure" definition="A Fibonacci closure is a function that returns another function (a closure) which generates successive Fibonacci numbers each time it is called." />
+                    <Term value="closure" definition="A closure is a function in programming that retains access to the variables in its surrounding scope, even after that scope has exited." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="582097525">
+                <value>
+                  <list>
+                    <Term value="var declaration" definition="A var declaration can include initializers, one per variable." />
+                    <Term value="initializers" definition="If an initializer is present, the type can be omitted; the variable will take the type of the initializer." />
+                    <Term value="initializer" definition="If an initializer is present, the type can be omitted; the variable will take the type of the initializer." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="597829791">
+                <value>
+                  <list>
+                    <Term value="Function values" definition="Function values are treated as values in programming; they can be passed as arguments to functions and returned from functions." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="612625933">
+                <value>
+                  <list>
+                    <Term value="Zero values" definition="Variables declared without an explicit initial value are given their zero value, which is 0 for numeric types, false for the boolean type, and &quot;&quot; (the empty string) for strings." />
+                    <Term value="zero value" definition="Variables declared without an explicit initial value are given their zero value, which is 0 for numeric types, false for the boolean type, and &quot;&quot; (the empty string) for strings." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="639789592">
+                <value>
+                  <list>
+                    <Term value="Type inference" definition="Type inference occurs when a variable's type is inferred from the value on the right-hand side of the declaration without specifying an explicit type." />
+                    <Term value="untyped numeric constant" definition="An untyped numeric constant is a numeric value without a specified type, which may be inferred as int, float64, or complex128 depending on the precision of the constant." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="681147042">
+                <value>
+                  <list>
+                    <Term value="close a channel" definition="In Go, a sender can close a channel to indicate that no more values will be sent." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="737092917">
+                <value>
+                  <list>
+                    <Term value="io.Reader" definition="The io.Reader interface in Go represents the read end of a stream of data and includes a Read method to populate byte slices with data." />
+                    <Term value="read" definition="In Go, the Read method of the io.Reader interface populates a given byte slice with data, returning the number of bytes populated and an error value." />
+                    <Term value="Read" definition="In Go, the Read method of the io.Reader interface populates a given byte slice with data, returning the number of bytes populated and an error value." />
+                    <Term value="io.EOF" definition="The io.EOF error in Go is returned by the Read method when the stream ends." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="740328686">
+                <value>
+                  <list>
+                    <Term value="empty interface" definition="The interface type that specifies zero methods is known as the empty interface and is represented as interface{}. It may hold values of any type." />
+                    <Term value="Empty interfaces" definition="The interface type that specifies zero methods is known as the empty interface and is represented as interface{}. It may hold values of any type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="773140431">
+                <value>
+                  <list>
+                    <Term value="Readers" definition="A Reader type in Go is an interface that wraps the basic Read method to read data into a slice of bytes." />
+                    <Term value="Reader" definition="A Reader type in Go is an interface that wraps the basic Read method to read data into a slice of bytes." />
+                    <Term value="reader" definition="A Reader type in Go is an interface that wraps the basic Read method to read data into a slice of bytes." />
+                    <Term value="ASCII character" definition="ASCII character represents a specific byte in the ASCII encoding standard used for text data." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="846837565">
+                <value>
+                  <list>
+                    <Term value="Slices" definition="A slice in Go is a dynamically-sized, flexible view into the elements of an array. Unlike an array, slices can grow and shrink and provide powerful built-in operations." />
+                    <Term value="slice" definition="A slice in Go is a dynamically-sized, flexible view into the elements of an array. Unlike an array, slices can grow and shrink and provide powerful built-in operations." />
+                    <Term value="uint8" definition="`uint8` represents an unsigned 8-bit integer in Go, ranging from 0 to 255." />
+                    <Term value="pic.Show(Pic)" definition="`pic.Show(Pic)` is a function in the Go tour that displays the output of `Pic` function as a graphical image." />
+                    <Term value="make" definition="The `make` function in Go is used to initialize slices, maps, and channels." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="888033278">
+                <value>
+                  <list>
+                    <Term value="slice" definition="A slice in Go is a data structure that allows you to store and manipulate a sequence of elements of the same type." />
+                    <Term value="slices" definition="A slice in Go is a data structure that allows you to store and manipulate a sequence of elements of the same type." />
+                    <Term value="Slices" definition="A slice in Go is a data structure that allows you to store and manipulate a sequence of elements of the same type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="903889613">
+                <value>
+                  <list>
+                    <Term value="Structs" definition="A struct is a collection of fields." />
+                    <Term value="struct" definition="A struct is a collection of fields." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="945281514">
+                <value>
+                  <list>
+                    <Term value="named function parameters" definition="When two or more consecutive named function parameters share a type, you can omit the type from all but the last." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="970060882">
+                <value>
+                  <list>
+                    <Term value="nil receiver" definition="In Go, a method can be called with a nil receiver, and it is common to write methods that handle this gracefully." />
+                    <Term value="null pointer exception" definition="In some programming languages, a null pointer exception occurs when a program attempts to use a reference that points to null." />
+                    <Term value="Interface values" definition="In Go, an interface value that holds a nil concrete value is itself non-nil." />
+                    <Term value="interface value" definition="In Go, an interface value that holds a nil concrete value is itself non-nil." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="982867991">
+                <value>
+                  <list>
+                    <Term value="Slices" definition="In some programming languages, a slice is a reference to a segment of an underlying array. It does not store its own data but describes a section of the array. Modifying a slice also changes the underlying array and is visible to other slices referencing the same array." />
+                    <Term value="slice" definition="In some programming languages, a slice is a reference to a segment of an underlying array. It does not store its own data but describes a section of the array. Modifying a slice also changes the underlying array and is visible to other slices referencing the same array." />
+                    <Term value="slices" definition="In some programming languages, a slice is a reference to a segment of an underlying array. It does not store its own data but describes a section of the array. Modifying a slice also changes the underlying array and is visible to other slices referencing the same array." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="986628578">
+                <value>
+                  <list>
+                    <Term value="Newton's method" definition="Newton's method is an iterative numerical technique for finding approximations to the roots of a real-valued function. For square roots, it adjusts guesses using the formula z -= (z*z - x) / (2*z)." />
+                    <Term value="math.Sqrt" definition="The math.Sqrt function in Go's standard library computes the square root of a given number using an optimized internal algorithm." />
+                    <Term value="delta" definition="Delta is a constant representing a very small value, used as a stopping condition in a loop, ensuring changes are minimal before exiting." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="993582958">
+                <value>
+                  <list>
+                    <Term value="Generic types" definition="In Go, generic types allow a type to be parameterized with a type parameter, enabling the implementation of generic data structures." />
+                    <Term value="generic types" definition="In Go, generic types allow a type to be parameterized with a type parameter, enabling the implementation of generic data structures." />
+                    <Term value="singly-linked list" definition="A singly-linked list is a type of data structure where each node contains a value and a pointer to the next node, allowing the storage of a sequence of elements." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1021193198">
+                <value>
+                  <list>
+                    <Term value="interface type" definition="An interface type is defined as a set of method signatures. A value of interface type can hold any value that implements those methods." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1023213463">
+                <value>
+                  <list>
+                    <Term value="io.Reader" definition="An interface in Go that wraps the basic Read method, used for reading data from a stream." />
+                    <Term value="gzip.NewReader" definition="A function in Go's compress/gzip package that takes an io.Reader (a stream of compressed data) and returns a gzip.Reader for decompressed data." />
+                    <Term value="rot13Reader" definition="A custom implementation in Go of the io.Reader interface that modifies a stream by applying the ROT13 substitution cipher to all alphabetical characters." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1074549337">
+                <value>
+                  <list>
+                    <Term value="Numeric Constants" definition="Numeric constants are high-precision values." />
+                    <Term value="Numeric constants" definition="Numeric constants are high-precision values." />
+                    <Term value="untyped constant" definition="An untyped constant takes the type needed by its context." />
+                    <Term value="int" definition="An int can store at maximum a 64-bit integer, and sometimes less." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1107955252">
+                <value>
+                  <list>
+                    <Term value="Errors" definition="In Go, the `error` type is a built-in interface used to represent error states. It includes a method `Error() string`." />
+                    <Term value="error" definition="In Go, the `error` type is a built-in interface used to represent error states. It includes a method `Error() string`." />
+                    <Term value="Error" definition="In Go, the `error` type is a built-in interface used to represent error states. It includes a method `Error() string`." />
+                    <Term value="errors" definition="In Go, the `error` type is a built-in interface used to represent error states. It includes a method `Error() string`." />
+                    <Term value="nil" definition="In Go, a nil `error` indicates success, while a non-nil `error` indicates failure." />
+                    <Term value="strconv.Atoi" definition="In Go, `strconv.Atoi` is a function used to convert a string to an integer and returns an `error` if the conversion fails." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1117674379">
+                <value>
+                  <list>
+                    <Term value="Short variable declarations" definition="Inside a function, the `:=` short assignment statement can be used in place of a `var` declaration with implicit type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1145241186">
+                <value>
+                  <list>
+                    <Term value="ColorModel" definition="A method that returns the color model, such as color.RGBAModel, for an image in Go." />
+                    <Term value="Bounds" definition="A method that returns an image.Rectangle defining the dimensions of an image in Go." />
+                    <Term value="At" definition="A method that returns the color at a specific (x, y) coordinate in an image in Go." />
+                    <Term value="color.RGBA" definition="A struct in Go representing a color with red, green, blue, and alpha components." />
+                    <Term value="image.Rectangle" definition="A struct in Go used to define a rectangular region by specifying its minimum and maximum points." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1201573283">
+                <value>
+                  <list>
+                    <Term value="Nil slices" definition="The zero value of a slice is nil. A nil slice has a length and capacity of 0 and has no underlying array." />
+                    <Term value="nil slice" definition="The zero value of a slice is nil. A nil slice has a length and capacity of 0 and has no underlying array." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1205423474">
+                <value>
+                  <list>
+                    <Term value="strings.Fields" definition="In Go, strings.Fields splits a string around each instance of one or more consecutive white space characters, returning a slice of substrings." />
+                    <Term value="Maps" definition="In Go, a map is a built-in data type that associates keys with values." />
+                    <Term value="map" definition="In Go, a map is a built-in data type that associates keys with values." />
+                    <Term value="wc.Test" definition="In Go, wc.Test runs a test suite against the provided function and reports success or failure." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1265530735">
+                <value>
+                  <list>
+                    <Term value="Defer" definition="A defer statement defers the execution of a function until the surrounding function returns." />
+                    <Term value="defer" definition="A defer statement defers the execution of a function until the surrounding function returns." />
+                    <Term value="defers" definition="A defer statement defers the execution of a function until the surrounding function returns." />
+                    <Term value="deferred" definition="A defer statement defers the execution of a function until the surrounding function returns." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1324557718">
+                <value>
+                  <list>
+                    <Term value="pointer receivers" definition="In Go, a pointer receiver is a method receiver that allows the method to modify the value that its receiver points to." />
+                    <Term value="pointer receiver" definition="In Go, a pointer receiver is a method receiver that allows the method to modify the value that its receiver points to." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1326690959">
+                <value>
+                  <list>
+                    <Term value="Stringers" definition="A Stringer is a type that can describe itself as a string. The fmt package and many others use this interface to print values." />
+                    <Term value="Stringer" definition="A Stringer is a type that can describe itself as a string. The fmt package and many others use this interface to print values." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1339762944">
+                <value>
+                  <list>
+                    <Term value="Slice literals" definition="A slice literal is like an array literal without the length." />
+                    <Term value="slice literal" definition="A slice literal is like an array literal without the length." />
+                    <Term value="array literal" definition="An array literal is a way to create an array by specifying its elements inside curly braces, optionally with a length." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1360736121">
+                <value>
+                  <list>
+                    <Term value="slice" definition="A slice in Go is a dynamically-sized array. It allows for flexible and resizable collections of elements." />
+                    <Term value="Slices" definition="A slice in Go is a dynamically-sized array. It allows for flexible and resizable collections of elements." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1390226136">
+                <value>
+                  <list>
+                    <Term value="Type switches" definition="A type switch is a construct that allows several type assertions in series, comparing the type of a value held by an interface with specified types." />
+                    <Term value="type switch" definition="A type switch is a construct that allows several type assertions in series, comparing the type of a value held by an interface with specified types." />
+                    <Term value="type assertions" definition="A type assertion is a construct with syntax like `i.(T)` that extracts the value of the interface type `i` as the specified type `T`." />
+                    <Term value="type assertion" definition="A type assertion is a construct with syntax like `i.(T)` that extracts the value of the interface type `i` as the specified type `T`." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1444600495">
+                <value>
+                  <list>
+                    <Term value="Slice" definition="A slice is a segment of an array with a length and a capacity." />
+                    <Term value="slice" definition="A slice is a segment of an array with a length and a capacity." />
+                    <Term value="length" definition="The length of a slice is the number of elements it contains." />
+                    <Term value="capacity" definition="The capacity of a slice is the number of elements in the underlying array, counting from the first element in the slice." />
+                    <Term value="len(s)" definition="`len(s)` is an expression used to obtain the length of a slice." />
+                    <Term value="cap(s)" definition="`cap(s)` is an expression used to obtain the capacity of a slice." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1448483441">
+                <value>
+                  <list>
+                    <Term value="pointer receiver" definition="A pointer receiver in Go allows a method to modify the value that the receiver points to or avoid copying the value on each method call, improving efficiency for large structs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1473363331">
+                <value>
+                  <list>
+                    <Term value="Go's switch cases" definition="Go's switch cases need not be constants, and the values involved need not be integers." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1476902184">
+                <value>
+                  <list>
+                    <Term value="Packages" definition="In Go, a package is a collection of code, and every Go program is made up of packages." />
+                    <Term value="packages" definition="In Go, a package is a collection of code, and every Go program is made up of packages." />
+                    <Term value="package" definition="In Go, a package is a collection of code, and every Go program is made up of packages." />
+                    <Term value="import paths" definition="In Go, the import path specifies the location of a package to include, such as 'fmt' or 'math/rand'." />
+                    <Term value="import path" definition="In Go, the import path specifies the location of a package to include, such as 'fmt' or 'math/rand'." />
+                    <Term value="package name" definition="By convention in Go, the package name is the same as the last element of the import path." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1561505206">
+                <value>
+                  <list>
+                    <Term value="goroutine" definition="A goroutine is a lightweight thread managed by the Go runtime. It runs in the same address space, so access to shared memory must be synchronized." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1597175895">
+                <value>
+                  <list>
+                    <Term value="Interface values" definition="An interface value holds a value of a specific underlying concrete type." />
+                    <Term value="interface values" definition="An interface value holds a value of a specific underlying concrete type." />
+                    <Term value="interface value" definition="An interface value holds a value of a specific underlying concrete type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1612166539">
+                <value>
+                  <list>
+                    <Term value="byte" definition="In Go, byte is an alias for uint8." />
+                    <Term value="rune" definition="In Go, rune is an alias for int32 and represents a Unicode code point." />
+                    <Term value="int" definition="In Go, the int type is usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems. It is recommended to use int for integer values unless a specific sized or unsigned type is required." />
+                    <Term value="uintptr" definition="In Go, the uintptr type is a machine-dependent type that is usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1657174969">
+                <value>
+                  <list>
+                    <Term value="init statement" definition="In Go's `for` loop, the init statement is executed before the first iteration and is usually a short variable declaration." />
+                    <Term value="condition expression" definition="In Go's `for` loop, the condition expression is evaluated before every iteration and determines if the loop should continue." />
+                    <Term value="post statement" definition="In Go's `for` loop, the post statement is executed at the end of every iteration." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1687691645">
+                <value>
+                  <list>
+                    <Term value="Type assertions" definition="A type assertion in Go provides access to an interface value's underlying concrete value by asserting the type and retrieving the value if the assertion succeeds." />
+                    <Term value="type assertion" definition="A type assertion in Go provides access to an interface value's underlying concrete value by asserting the type and retrieving the value if the assertion succeeds." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1712481568">
+                <value>
+                  <list>
+                    <Term value="Struct Literals" definition="A struct literal denotes a newly allocated struct value by listing the values of its fields." />
+                    <Term value="struct literal" definition="A struct literal denotes a newly allocated struct value by listing the values of its fields." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1740392567">
+                <value>
+                  <list>
+                    <Term value="fmt.Stringer" definition="The `fmt.Stringer` interface in Go is used to define how objects are converted to strings. When implemented, objects can control their string representation during formatting." />
+                    <Term value="IPAddr" definition="The `IPAddr` type is a custom representation of an IP address in Go, defined as an array of 4 bytes. It can be formatted as a dotted quad (e.g., '1.2.3.4') by implementing the `fmt.Stringer` interface." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1748466899">
+                <value>
+                  <list>
+                    <Term value="Exported names" definition="In Go, a name is exported if it begins with a capital letter. For example, 'Pizza' and 'Pi' are exported names, but 'pizza' and 'pi' are not." />
+                    <Term value="exported name" definition="In Go, a name is exported if it begins with a capital letter. For example, 'Pizza' and 'Pi' are exported names, but 'pizza' and 'pi' are not." />
+                    <Term value="exported names" definition="In Go, a name is exported if it begins with a capital letter. For example, 'Pizza' and 'Pi' are exported names, but 'pizza' and 'pi' are not." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1778237678">
+                <value>
+                  <list>
+                    <Term value="Channels" definition="A channel is a typed conduit in Go through which you can send and receive values using the channel operator `&lt;-`." />
+                    <Term value="channel" definition="A channel is a typed conduit in Go through which you can send and receive values using the channel operator `&lt;-`." />
+                    <Term value="channels" definition="A channel is a typed conduit in Go through which you can send and receive values using the channel operator `&lt;-`." />
+                    <Term value="channel operator" definition="The channel operator `&lt;-` is used in Go for sending and receiving values through a channel." />
+                    <Term value="goroutines" definition="In Go, goroutines are lightweight thread-like functions that can run concurrently." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1800824438">
+                <value>
+                  <list>
+                    <Term value="Implicit interfaces" definition="An implicit interface is implemented by a type by providing the required methods without an explicit declaration or 'implements' keyword." />
+                    <Term value="Interfaces" definition="An interface is defined as a collection of methods, which can be implemented by a type to provide specific behavior." />
+                    <Term value="interface" definition="An interface is defined as a collection of methods, which can be implemented by a type to provide specific behavior." />
+                    <Term value="interfaces" definition="An interface is defined as a collection of methods, which can be implemented by a type to provide specific behavior." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1855045018">
+                <value>
+                  <list>
+                    <Term value="Trees" definition="A Tree structure in Go consists of a Left subtree, an integer Value, and a Right subtree, as defined in the tree package." />
+                    <Term value="trees" definition="A Tree structure in Go consists of a Left subtree, an integer Value, and a Right subtree, as defined in the tree package." />
+                    <Term value="Tree" definition="A Tree structure in Go consists of a Left subtree, an integer Value, and a Right subtree, as defined in the tree package." />
+                    <Term value="tree" definition="A Tree structure in Go consists of a Left subtree, an integer Value, and a Right subtree, as defined in the tree package." />
+                    <Term value="Walk" definition="The Walk function traverses the binary tree and sends all values from the tree to a provided channel." />
+                    <Term value="walks" definition="The Walk function traverses the binary tree and sends all values from the tree to a provided channel." />
+                    <Term value="same" definition="The Same function determines whether two binary trees contain the same values by using the Walk function." />
+                    <Term value="Same" definition="The Same function determines whether two binary trees contain the same values by using the Walk function." />
+                    <Term value="tree.New" definition="The tree.New function constructs a randomly-structured (but always sorted) binary tree containing values like k, 2k, 3k, ..., 10k." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1949212467">
+                <value>
+                  <list>
+                    <Term value="Maps" definition="A map maps keys to values." />
+                    <Term value="map" definition="A map maps keys to values." />
+                    <Term value="maps" definition="A map maps keys to values." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1956461021">
+                <value>
+                  <list>
+                    <Term value="Nil interface values" definition="A nil interface value holds neither value nor concrete type." />
+                    <Term value="nil interface value" definition="A nil interface value holds neither value nor concrete type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1959265032">
+                <value>
+                  <list>
+                    <Term value="value receivers" definition="A method with a value receiver takes either a value or a pointer as the receiver when called." />
+                    <Term value="pointer indirection" definition="Pointer indirection is the process where a method call on a pointer, such as `p.Abs()`, is interpreted as `(*p).Abs()`." />
+                    <Term value="Compile error" definition="A compile error occurs when a function expecting a specific type gets an incompatible argument, such as passing a pointer when a value is required." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2042263367">
+                <value>
+                  <list>
+                    <Term value="ErrNegativeSqrt" definition="A custom error type in Go, defined as a named float64 type, designed to handle the scenario where the square root function receives a negative number." />
+                    <Term value="Error() string" definition="A method implemented by the ErrNegativeSqrt type in Go, which satisfies the error interface and provides a string representation of the error." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2068068538">
+                <value>
+                  <list>
+                    <Term value="Constants" definition="Constants are declared like variables, but with the `const` keyword. They can be character, string, boolean, or numeric values and cannot be declared using the `:=` syntax." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="10" />
+      </map>
+    </termsVersions>
+  </component>
+</project>
